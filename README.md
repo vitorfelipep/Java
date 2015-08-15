@@ -1,3 +1,3 @@
 # Java
 
-Repositorio de dsenvolvimento de aplicações WEB.
+Repositorio de desenvolvimento de aplicações WEB.

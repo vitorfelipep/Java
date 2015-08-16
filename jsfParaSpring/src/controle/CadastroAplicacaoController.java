@@ -4,7 +4,6 @@ import java.util.List;
 
 import modelo.Aplicacao;
 import modelo.AplicacaoDAO;
-import modelo.Usuario;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

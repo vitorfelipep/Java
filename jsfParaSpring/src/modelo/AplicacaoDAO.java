@@ -38,6 +38,7 @@ private Session session;
 		return (Aplicacao)session.get(Aplicacao.class, codigo);
 	}
 	
+	@SuppressWarnings("unchecked")
 	public List<Aplicacao> todos(){
 		return session.createCriteria(Aplicacao.class).list();
 	}

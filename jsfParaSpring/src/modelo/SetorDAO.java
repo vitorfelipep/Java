@@ -22,6 +22,7 @@ private Session session;
 		session.getTransaction().commit();
 	}
 	
+	@SuppressWarnings("unchecked")
 	public List<Setor> todos(){
 		return session.createCriteria(Setor.class).list();
 	}

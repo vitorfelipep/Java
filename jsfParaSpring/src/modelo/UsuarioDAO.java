@@ -38,6 +38,7 @@ public class UsuarioDAO {
 		return (Usuario)session.get(Usuario.class, codigo);
 	}
 	
+	@SuppressWarnings("unchecked")
 	public List<Usuario> todos(){
 		return session.createCriteria(Usuario.class).list();
 	}

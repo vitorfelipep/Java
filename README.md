@@ -1,3 +1,3 @@
 # Java
 
-Repositorio de testes.
+Repositorio de desenvolvimento de aplicações WEB.

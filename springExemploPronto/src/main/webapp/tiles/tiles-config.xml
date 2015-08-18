@@ -13,6 +13,8 @@
     	<put-attribute name="conteudo" value="/views/index.jsp"/>
     </definition>
     
+   /* Teste de comentário usando o editor do gitHub */
+    
     <definition name="registro" extends="main">
     	<put-attribute name="conteudo" value="/views/signup.jsp"/>
     	<put-attribute name="titulo" value="Bem vindo(a)!"/>
